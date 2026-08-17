@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+if [ "$1" = "rebase" ]; then
+  npx auto-bump-version --post-rebase --base-branch 'main'
+fi
